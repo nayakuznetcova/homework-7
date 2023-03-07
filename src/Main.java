@@ -88,15 +88,19 @@ public class Main {
         System.out.println("Задача 7");
         int firstFriday = 3;
         for (int d = firstFriday; d <= 31; d += 7) {
-            System.out.println("Пятница " + d + " пора сдавать отчет");
+            System.out.println("Пятница " + d + " пора сдавать отчёт");
         }
     }
 
     public static void task8() {
         System.out.println("Задача 8");
-        int firstFriday = 3;
-        for (int d = firstFriday; d <= 31; d += 7) {
-            System.out.println("Пятница " + d + " пора сдавать отчет");
+        int yearFrom = 1823;
+        int yearTo = 2123;
+        for (int i = 0; i <= yearTo; i += 79) {
+            if (i > yearFrom) {
+                System.out.println("Год пролета кометы: " + i);
+            }
         }
+        System.out.println();
     }
 }
