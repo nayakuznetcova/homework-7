@@ -88,7 +88,7 @@ public class Main {
         System.out.println("Задача 7");
         int firstFriday = 3;
         for (int d = firstFriday; d <= 31; d += 7) {
-            System.out.println("Пятница " + d + " пора сдавать отчет");
+            System.out.println("Пятница " + d + " пора сдавать отчёт");
         }
     }
 
